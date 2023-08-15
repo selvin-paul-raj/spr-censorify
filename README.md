@@ -1,1 +1,1 @@
-# npm_censorify
+# spr_censorify
