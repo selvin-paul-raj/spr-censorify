@@ -1,0 +1,26 @@
+{
+  "name": "spr_censorify",
+  "version": "1.0.0",
+  "description": "Efficiently censor text with default and custom words. Utilizes sets, regex, and modular exports for scalability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "censor",
+    "words"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPRHackz/npm_censorify.git"
+  },
+  "author": "SPRHackz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPRHackz/npm_censorify/issues"
+  },
+  "homepage": "https://github.com/SPRHackz/npm_censorify#readme"
+}
