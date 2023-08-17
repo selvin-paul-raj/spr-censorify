@@ -13,8 +13,8 @@ npm install spr-censorify
 # Usage
 
 ```sh
-// To Install package `npm i spr_censorify`
-var censor = require("spr_censorify"); // To Import The Package
+// To Install package `npm i spr-censorify`
+var censor = require("spr-censorify"); // To Import The Package
 
 console.log("\n PreDefine  Censored Words : ");
 console.log(censor.getCensoredWords());
