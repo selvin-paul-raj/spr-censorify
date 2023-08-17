@@ -5,18 +5,18 @@ var defaultCensoredWords = ["sad", "bad", "mad"];
 var customCensoredWords = new Set();
 
 // Function to censor the input string
-function censor(inStr) {
+function censor(inputStr, pattern = '*****') {
     // Replacing censored words from the default set
     for (let word of defaultCensoredWords) {
-        inStr = inStr.replace(new RegExp(word, "gi"), "****");
+        inputStr = inputStr.replace(new RegExp(word, "gi"), pattern);
     }
     
     // Replacing censored words from the custom set
     for (let word of customCensoredWords) {
-        inStr = inStr.replace(new RegExp(word, "gi"), "****");
+        inputStr = inputStr.replace(new RegExp(word, "gi"), pattern);
     }
     
-    return inStr;
+    return inputStr;
 }
 
 // Function to add a word to the custom censored words set
