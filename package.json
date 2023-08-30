@@ -1,5 +1,5 @@
 {
-  "name": "spr_censorify",
+  "name": "sprhackz-censorify",
   "version": "1.0.0",
   "description": "Efficiently censor text with default and custom words. Utilizes sets, regex, and modular exports for scalability.",
   "main": "index.js",
