@@ -1,4 +1,4 @@
-<h1 align=center>SPR-Censority</h1>
+<h1 align=center>SPRHackz-Censority</h1>
 
 # CustomCensorify
 
@@ -7,14 +7,14 @@ A JavaScript module for efficient text censorship. Replace sensitive words with 
 ## Installation
 
 ```sh
-npm install spr-censorify
+npm install sprhackz-censorify
 ```
 
 # Usage
 
 ```sh
-// To Install package `npm i spr-censorify`
-var censor = require("spr-censorify"); // To Import The Package
+// To Install package `npm i sprhackz-censorify`
+var censor = require("sprhackz-censorify"); // To Import The Package
 
 console.log("\n PreDefine  Censored Words : ");
 console.log(censor.getCensoredWords());
